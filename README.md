@@ -23,6 +23,11 @@ CSS you might use:
 
 BONUS: Try to see if you can get the header to be fixed to the top of the screen.
 
+### My Approach
+
+Started by identifying boxes on paper.
+![](/DC_Blog/DC_Blog_Work)
+
 ## DgtlCrfts
 
 This design is slightly more complicated than DC Blog. Notice that the image of the Atlanta skyline is behind the main text (this should be your cue to use the background-image CSS property instead of an img HTML tag.)
