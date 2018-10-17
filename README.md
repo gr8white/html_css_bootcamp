@@ -51,6 +51,13 @@ CSS you might use:
   
 BONUS: Instead of using the three icon images in the /img folder, try to implement the icons using pure HTML and CSS (hint: use border-radius and absolute positioning)
 
+Started by identifying boxes on paper:
+- Red identifies &lt;div>'s
+- Blue identifies &lt;p>'s
+- Green identifies &lt;ul>'s
+- Orange identifies &lt;img>'s
+![](https://github.com/gr8white/html_css_bootcamp/blob/master/DgtlCrfts/img/DgtlCrfts.jpg)
+
 ## DC Docs
 
 This design is the hardest of the three. The navigation panel on the left should be fixed to the screen, and only the right side of the page should scroll. You can try to look at http://underscorejs.org/ to see how they implemented this design.
@@ -66,3 +73,9 @@ CSS you might use:
 - the :hover selector to make links highlight when you hover over them
 - border-left: 5px; (for the left side of the quote box)
 - height: 100vw; and width:300px;  combined with position: fixed; for the side bar
+
+Started by identifying boxes on paper:
+- Red identifies major &lt;div>'s
+- Blue identifies &lt;ul>'s, &lt;p>'s, elements that I grouped together
+- Green identifies the main &lt;blockquote> element
+![](https://github.com/gr8white/html_css_bootcamp/blob/master/DC_Docs/img/DC_Docs.jpg)
