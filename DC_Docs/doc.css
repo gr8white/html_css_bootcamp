@@ -1,0 +1,97 @@
+body {
+    font-size: 14px;
+    line-height: 22px;
+    background: #f4f4f4 url(docs/images/background.png);
+    color: #000;
+    font-family: Helvetica Neue, Helvetica, Arial;}
+.sideBar {
+    background: rgb(84,85,86);
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 15px 0 30px 30px;
+    border-right: 1px solid #bbb;
+    box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    font-size: 125%;
+    -moz-box-shadow: 0 0 20px #ccc;}
+.container {
+    width: 1000px;
+    margin: 40px 0 50px 260px;}
+a.sideOption, a.sideOption:visited {
+    display: block;
+    color: rgb(176, 177, 178);
+    font-weight: bold;
+    margin-top: 15px;}
+a.sideOption:hover {
+    color: rgb(239, 240, 241)}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;}
+a.topLink, a.topLink:visited {
+    display: block;
+    color: rgb(239, 240, 241);
+    font-weight: bold;
+    margin-top: 15px;}    
+a:any-link {
+    text-decoration: none;
+    cursor: auto;}
+#copyright {
+    color: rgb(176, 177, 178);
+    position: absolute;
+    bottom: 0;
+    font-size: 80%;}
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: inherit;
+    margin: 0.25em 0;
+    padding: 12px 72px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    background: rgb(228, 227, 222);
+    font-size: 20px;
+    border-left: 6px solid rgb(194, 195, 194);
+}
+blockquote:before {
+    display: block;
+    padding-left: 0px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    color: #7a7a7a;
+}
+blockquote:after {
+    display: block;
+    padding-left: 0px;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    left: 900px;
+    top: 40px;
+    color: #7a7a7a;
+}
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+input {
+    background-color: rgb(84,85,86);
+    border: 1px solid rgb(176, 177, 178);
+    color: rgb(176, 177, 178)
+}

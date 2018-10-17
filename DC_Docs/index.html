@@ -1,47 +1,44 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>DC_Docs</title>
-        <style type="text/css">
-            .sideBar {
-                position: fixed;
-                top: 3px;
-                left: 3px;
-                bottom: 3px;
-                padding: 15px;
-                padding-top: 40px;
-                width: 220px;
-                margin-right: 10px;
-                background-color: #474747;
-            }
-            .main {
-                position: absolute;
-                top: 3px;
-                left: 275px;
-                padding-top: 0px;
-                width: 635px;
-                border: 1px;
-                margin-left: 10px;
-                background-color: #474747;
-            }
-            #welcome {
-                padding: 0px;
-            }
-        </style>
+        <link href="doc.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <div class="sideBar">
-          DigitalCrafts Docs <br>
-          Search Bar <br>
-          Introduction <br>
-          Motivation <br>
-          Campus Info <br>
-          Job Searches <br>
-          FAQ
+          <h4 id="docTitle"><a class="topLink" href="#top">DigitalCrafts Docs</a></h4>
+          <input id="function_filter" placeholder="Search" type="text" autofocus="">
+          <ul id="sideDirectory">
+            <li><a class="sideOption" href="#introduction">Introduction</a></li>
+            <li><a class="sideOption" href="#motivation">Motivation</a></li>
+            <li><a class="sideOption" href="#campusInfo">Campus Info</a></li>
+            <li><a class="sideOption" href="#jobSearches">Job Searches</a></li>
+            <li><a class="sideOption" href="#faq">FAQ</a></li>
+            </ul>
+          <p id="copyright">&copy 2017 DigitalCrafts, Inc.</p>
         </div>
-        <div class="main">
-          <h1><img src="img/logo.png" alt="logo" />DigitalCrafts Docs</h1>
+        <div class="container">
+          <p id="welcome" style="margin-bottom: 5px;">Welcome to</p>
+          <h1 style="margin-top: 5px; margin-bottom: 40px; font-size:265%" ><img src="img/logo.png" alt="logo" />      DigitalCrafts Docs</h1>
+          <div id="documentation">
+            <h2 id="introduction" class="subheader">Introduction</h2>
+            <p>DigitalCrafts Docs is your got to place for anything related to DigitalCrafts: Lectures, campus info, job search tips, personal develeopment, bios, etc. You canscroll down to read all of thid website, click on the navigation buttons on the left, or search for a specific topic using the search bar on the left. This website is a work in progress, so don't be surprised if all the text below this paragraph is gibberish.</p>
+            <blockquote><p style="margin-bottom: 0px">     We should give the studentd some bogus assignment so that we can leave and go play laser tag down the street... wait, are you writing this down? Don't write this down!<cite>Adam Szaruga</cite></p></blockquote>
+            <h2 id="motivation" class="subheader">Motivation</h2>
+            <p>Bacon ipsum dolor amet porchetta ut ex landjaeger incididunt, proident officia kevin tenderloin. Officia kielbasa tempor bresaola, anim veniam hamburger commodo brisket consectetur doner eiusmod excepteur short loin kevin. In biltong in mollit esse. Jerky brisket deserunt, nulla veniam dolore ground round turkey spare ribs cupim. Ullamco deserunt biltong jerky consectetur sunt ribeye cupim. Cow excepteur burgdoggen hamburger leberkas in strip steak laborum chicken est bacon qui. Pancetta turkey deserunt id ham hock ex veniam qui sed pork belly et meatloaf tongue meatball.</p>
+            <p>Hamburger frankfurter officia cupim shankle. Ex ullamco spare ribs rump cupidatat dolor aliquip. Capicola short loin ad incididunt fatback kielbasa. Ut labore qui, tongue pork loin picanha swine strip steak lorem esse meatloaf. Ipsum irure leberkas prosciutto minim ullamco. Cupidatat turkey turducken bresaola mollit ground round. Id adipisicing ut incididunt minim pork prosciutto corned beef bacon aute sunt pork loin shank.</p>
+            <h2 id="campusInfo" class="subheader">Campus Info</h2>
+            <p>Bacon ipsum dolor amet porchetta ut ex landjaeger incididunt, proident officia kevin tenderloin. Officia kielbasa tempor bresaola, anim veniam hamburger commodo brisket consectetur doner eiusmod excepteur short loin kevin. In biltong in mollit esse. Jerky brisket deserunt, nulla veniam dolore ground round turkey spare ribs cupim. Ullamco deserunt biltong jerky consectetur sunt ribeye cupim. Cow excepteur burgdoggen hamburger leberkas in strip steak laborum chicken est bacon qui. Pancetta turkey deserunt id ham hock ex veniam qui sed pork belly et meatloaf tongue meatball.</p>
+            <p>Hamburger frankfurter officia cupim shankle. Ex ullamco spare ribs rump cupidatat dolor aliquip. Capicola short loin ad incididunt fatback kielbasa. Ut labore qui, tongue pork loin picanha swine strip steak lorem esse meatloaf. Ipsum irure leberkas prosciutto minim ullamco. Cupidatat turkey turducken bresaola mollit ground round. Id adipisicing ut incididunt minim pork prosciutto corned beef bacon aute sunt pork loin shank.</p>
+            <h2 id="jobSearches" class="subheader">Job Searches</h2>
+            <p>Bacon ipsum dolor amet porchetta ut ex landjaeger incididunt, proident officia kevin tenderloin. Officia kielbasa tempor bresaola, anim veniam hamburger commodo brisket consectetur doner eiusmod excepteur short loin kevin. In biltong in mollit esse. Jerky brisket deserunt, nulla veniam dolore ground round turkey spare ribs cupim. Ullamco deserunt biltong jerky consectetur sunt ribeye cupim. Cow excepteur burgdoggen hamburger leberkas in strip steak laborum chicken est bacon qui. Pancetta turkey deserunt id ham hock ex veniam qui sed pork belly et meatloaf tongue meatball.</p>
+            <p>Hamburger frankfurter officia cupim shankle. Ex ullamco spare ribs rump cupidatat dolor aliquip. Capicola short loin ad incididunt fatback kielbasa. Ut labore qui, tongue pork loin picanha swine strip steak lorem esse meatloaf. Ipsum irure leberkas prosciutto minim ullamco. Cupidatat turkey turducken bresaola mollit ground round. Id adipisicing ut incididunt minim pork prosciutto corned beef bacon aute sunt pork loin shank.</p>
+            <h2 id="faq" class="subheader">FAQ</h2>
+            <p>Bacon ipsum dolor amet porchetta ut ex landjaeger incididunt, proident officia kevin tenderloin. Officia kielbasa tempor bresaola, anim veniam hamburger commodo brisket consectetur doner eiusmod excepteur short loin kevin. In biltong in mollit esse. Jerky brisket deserunt, nulla veniam dolore ground round turkey spare ribs cupim. Ullamco deserunt biltong jerky consectetur sunt ribeye cupim. Cow excepteur burgdoggen hamburger leberkas in strip steak laborum chicken est bacon qui. Pancetta turkey deserunt id ham hock ex veniam qui sed pork belly et meatloaf tongue meatball.</p>
+            <p>Hamburger frankfurter officia cupim shankle. Ex ullamco spare ribs rump cupidatat dolor aliquip. Capicola short loin ad incididunt fatback kielbasa. Ut labore qui, tongue pork loin picanha swine strip steak lorem esse meatloaf. Ipsum irure leberkas prosciutto minim ullamco. Cupidatat turkey turducken bresaola mollit ground round. Id adipisicing ut incididunt minim pork prosciutto corned beef bacon aute sunt pork loin shank.</p>
+            <p><a href="#top">Top</a></p>
+          </div>
         </div>
     </body>
-</html> -->
+</html>
 
