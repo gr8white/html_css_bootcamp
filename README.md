@@ -25,8 +25,11 @@ BONUS: Try to see if you can get the header to be fixed to the top of the screen
 
 ### My Approach
 
-Started by identifying boxes on paper.
-![](/DC_Blog/DC_Blog_Work)
+Started by identifying boxes on paper:
+- Red identifies &lt;div>'s
+- Blue identifies &lt;ul>'s or &lt;p>'s
+- Green identifies elements that I grouped together
+![](https://github.com/gr8white/html_css_bootcamp/blob/master/DC_Blog/DC_Blog_Work.jpg)
 
 ## DgtlCrfts
 
